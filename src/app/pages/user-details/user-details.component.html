@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="main-body">
+          <div class="row gutters-sm">
+            <h2 class="mt-4">Perfil Usuario</h2>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img [src]="usersData.img" alt="Admin" class="rounded-circle" width="150">
+                    <div class="mt-3">
+                      <h4>{{usersData.name}} {{usersData.surName}}</h4>
+                      <p class="text-secondary mb-1">{{usersData.email}}</p>
+                      <p class="text-secondary mb-1">{{usersData.telephone}}</p>
+                      <p class="text-secondary mb-1">{{usersData.balance | currency:'USD':'symbol':'1.2-2'}}</p>
+                      <p class="text-muted font-size-sm">{{usersData.documentType}}: {{usersData.identificationCard}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Nombre completo:</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{usersData.name}} {{usersData.surName}}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Correo</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{usersData.email}}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Teléfono:</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{usersData.telephone}}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Celular:</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      {{usersData.telephone}}
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Dirección:</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Bay Area, San Francisco, CA
+                    </div>
+                  </div>
+                  <hr>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row  align-items-center mt-4">
+            <h2>Suscripciones</h2>
+            @if (loading) {
+              <app-loading />
+            }
+            <app-cards [listData]="listProductsData"/>
+          </div>
+        </div>
+    </div>

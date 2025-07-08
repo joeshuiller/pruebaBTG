@@ -1,0 +1,87 @@
+{
+  "getUsers": {
+    "name": "Prueba",
+    "surName": "Prueba",
+    "telephone": "2455125",
+    "documentType": "CC",
+    "identificationCard": "234215235",
+    "email": "prueb@hot.com",
+    "balance": "500000",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/System-users.svg/2048px-System-users.svg.png"
+  },
+  "productsDetails": [
+    {
+      "id": "1",
+      "name": "FPV_BTG_PACTUAL_RECAUDADORA",
+      "minimumAmount": "75000",
+      "category": "FPV",
+      "img": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "smallImg": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "2",
+      "name": "FPV_BTG_PACTUAL_ECOPETROL",
+      "minimumAmount": "125000",
+      "category": "FPV",
+      "img": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "smallImg": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "3",
+      "name": "DEUDAPRIVADA",
+      "minimumAmount": "50000",
+      "category": "FIC",
+      "img": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "smallImg": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "4",
+      "name": "FDO-ACCIONES",
+      "minimumAmount": "250000",
+      "category": "FIC",
+      "img": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "smallImg": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "5",
+      "name": "FPV_BTG_PACTUAL_DINAMICA",
+      "minimumAmount": "100000",
+      "category": "FPV",
+      "img": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "smallImg": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "6",
+      "name": "FPV_BTG_PACTUAL_DINAMICA",
+      "minimumAmount": "100000",
+      "category": "FPV",
+      "img": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "smallImg": "https://png.pngtree.com/background/20250106/original/pngtree-premium-gold-and-silver-business-card-background-with-wavy-lines-vector-picture-image_15392937.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "7",
+      "name": "FPV_BTG_PACTUAL_RECAUDADORA",
+      "minimumAmount": "75000",
+      "category": "FPV",
+      "img": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "smallImg": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "subscribe": false
+    },
+    {
+      "id": "8",
+      "name": "FPV_BTG_PACTUAL_RECAUDADORA",
+      "minimumAmount": "75000",
+      "category": "FPV",
+      "img": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "smallImg": "https://images.freeimages.com/cme/images/previews/f10/vector-abstract-red-card-background-22020.jpg",
+      "subscribe": false
+    }
+  ],
+  "buyDetails": []
+}

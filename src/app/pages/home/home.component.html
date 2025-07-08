@@ -1,0 +1,9 @@
+<div class="row  align-items-center mt-4">
+  @if (loading) {
+    <app-loading />
+  }
+  @if (listCards) {
+    <app-cards [listData]="listCards" [value]="shoppingValue"/>
+  }
+
+</div>

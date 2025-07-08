@@ -1,0 +1,7 @@
+<div class="row  align-items-center mt-4">
+  <h2>Suscripciones</h2>
+  @if (loading) {
+    <app-loading />
+  }
+  <app-cards [listData]="listProductsData"/>
+</div>

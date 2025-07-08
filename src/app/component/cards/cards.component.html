@@ -1,0 +1,37 @@
+
+<div class="row  align-items-center mt-4 ">
+  @if (alert) {
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Up lo siento!</strong> No tienes saldo para suscribirte.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true" (click)="close()">&times;</span>
+      </button>
+    </div>
+  }
+
+  @for (item of listData; track item.id) {
+    <div class="col-3">
+      <div class="card mt-4" >
+          <a routerLink="/">
+            <img [src]="item.img" class="card-img-top" alt="prueba">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{item.minimumAmount | currency:'USD':'symbol':'1.2-2'}}</p>
+                  @if (item.subscribe) {
+                     <img (click)="remove(item)" src="img/suscribir.png" alt="">
+                  }
+                  @else{
+                     <a (click)="add(item)" data-bs-toggle="tooltip" data-bs-placement="top" title="Carrito de compra">
+                      <img src="img/suscribirfalse.png" alt="">
+                    </a>
+                  }
+        </div>
+      </div>
+    </div>
+  } @empty {
+    <p>No hay fondo disponible.</p>
+  }
+
+</div>
+
